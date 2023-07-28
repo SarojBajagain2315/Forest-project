@@ -1,0 +1,1162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 100%;
+    height: 700px;
+    background-image: url(forest.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo,
+h1 {
+    color: white;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: #a3c962;
+}
+
+.main,
+h4 {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+    line-height: 36px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    /* margin:0px; */
+    padding: 0px;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+
+}
+
+.main,
+h5 {
+    color: white;
+    text-align: center;
+    line-height: 55.2px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin: 13px 0px 16px;
+    padding: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+    /* font-family: Playfair Display; */
+}
+
+.main,
+.main,
+.par1 {
+    color: white;
+
+    font-size: 15px;
+    line-height: 27px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(218, 218, 218);
+    text-align: center;
+}
+
+.btn-one {
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #a3c962;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.btn-two {
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: green;
+
+}
+
+.button {
+    text-align: center;
+
+}
+
+.menu li.active a {
+    color: #a3c962;
+}
+
+.afterbackground .one {
+    margin-top: 170px;
+    text-align: center;
+    color: #a3c962;
+}
+
+.afterbackground .two {
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    font-weight: 700;
+    text-align: center;
+    text-indent: 0px;
+    color: black;
+    font-size: 25px;
+}
+
+.afterbackground .three {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 30px;
+    color: gray;
+}
+
+
+/* start of leaf of style  */
+.leaf {
+    display: flex;
+}
+
+.leaf .leaf_photo {
+    width: 35%;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.aboutus {
+    width: 40%;
+}
+
+.aboutus .aboutus_one {
+    color: #a3c962;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aboutus .aboutus_two {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin: 0px 0px 16px;
+    padding: 0px;
+}
+
+.aboutus .aboutus_three {
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    text-align: left;
+    text-indent: 0px;
+}
+
+.aboutus .percentimg {
+    margin-top: 30px;
+    margin-right: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+/* end of leaf of style  */
+
+
+/* start of service part style  */
+.services {
+    background-image: url(bigforest.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+}
+
+.services_firstpart {
+    display: flex;
+}
+
+.services .p_one {
+    color: white;
+    width: 50%;
+    margin-left: 230px;
+    margin-top: 80px;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    color: white;
+    font-weight: 400;
+    word-spacing: 0px;
+}
+
+.p_two {
+    width: 80%;
+}
+
+.p_two .p_sub_one {
+    margin-left: 20px;
+    margin-top: 80px;
+    color: #a3c962;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.p_two .p_sub_two {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 44px;
+    font-size: 37px;
+}
+
+.box {
+    color: white;
+    height: 230px;
+    width: 350px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.services_secondpart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* .services_secondpart{
+    overflow: hidden;
+} */
+.box .container1,
+h2,
+p {
+    color: black;
+    /* text-align: center; */
+}
+
+.box .container1 .tree_icons {
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading1 {
+    text-align: center;
+}
+
+.paragraph1 {
+    text-align: center;
+}
+
+
+/* End of service part style  */
+
+
+
+
+
+
+/* start of our gallery style  */
+.ourgallery_one {
+    width: 50%;
+    text-align: right;
+}
+
+.ourgallery_one h2 {
+    margin-left: 20px;
+    color: #a3c962;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ourgallery_one h3 {
+    margin-left: 20px;
+    color: black;
+    font-size: 37px;
+    line-height: 44.4px;
+}
+
+.ourgallery_two {
+    margin-left: 20px;
+    width: 45%;
+}
+
+.ourgallery {
+    display: flex;
+    margin-top: 40px;
+}
+
+
+/* next photo part  */
+.gallary {
+    display: flex;
+}
+
+.gallary_first_column {
+    width: 40%;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.gallary_second_column {
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.gallary {
+    margin-left: 195px;
+    margin-right: 145px;
+}
+
+.butterfly img {
+    height: 450px;
+    width: 550px;
+}
+
+.secondphotoafterbutterfly {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.tree img {
+    height: 400px;
+    width: 510px;
+    margin-top: 30px;
+}
+
+.girlphoto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.handphoto {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hot_girl {
+    margin-top: 30px;
+}
+
+/* end of our gallery style  */
+
+
+
+
+
+
+
+
+
+
+/* start of green banner style  */
+.greenbanner {
+    background-color: #a3c962;
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.greenbanner {
+    display: flex;
+}
+
+.save {
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.greenbanner .save h1 {
+    color: rgb(22, 21, 21);
+}
+
+.greenbanner .save h2 {
+    color: white;
+}
+
+.projects {
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.greenbanner .projects h1 {
+    color: rgb(22, 21, 21);
+}
+
+.greenbanner .projects h2 {
+    color: white;
+}
+
+.plants {
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.greenbanner .plants h1 {
+    color: rgb(22, 21, 21);
+}
+
+.greenbanner .plants h2 {
+    color: white;
+}
+
+.Countries {
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.greenbanner .Countries h1 {
+    color: rgb(22, 21, 21);
+}
+
+.greenbanner .Countries h2 {
+    color: white;
+}
+
+/* end of green banner style */
+
+
+
+
+
+
+/* start of after gallary style  */
+.after_gallery {
+    display: flex;
+}
+
+.after_gallery_one {
+    width: 50%;
+    text-align: right;
+    margin-top: 70px;
+
+}
+
+.after_gallery_two {
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+
+.after_gallery_two h2 {
+    color: #a3c962;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.after_gallery_two h3 {
+    font-size: 37px;
+}
+
+.greenbanner i {
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+}
+
+/* end of after gallary style  */
+
+
+
+
+
+
+
+
+/* start of Working_man part style */
+.working_man {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+.working_man img {
+    height: 550px;
+}
+
+.working_man_img {
+    width: 40%;
+}
+
+.three_box {
+    width: 40%;
+}
+
+/* now box part  */
+
+.three_box {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+    height: 150px;
+    width: 700px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.working_man_three_box {
+    display: flex;
+}
+
+.working_man_three_box {
+    width: 20%;
+}
+
+.working_man_heading_paragraph {
+    width: 70%;
+}
+
+.box2 {
+    margin-left: 30px;
+    box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+    height: 150px;
+    width: 670px;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+.box3 {
+    box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* end of Working_man part style*/
+
+.forest2 {
+    margin-top: 60px;
+    background-image: url(forest2.jpg);
+    height: 650px;
+    width: 100%;
+}
+
+.first_part {
+    display: flex;
+}
+
+.forest2_one {
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 120px;
+}
+
+.forest2_one h2 {
+    margin-left: 20px;
+    color: #a3c962;
+    font-size: 20px;
+}
+
+.forest2_one h3 {
+    color: white;
+    font-size: 37px;
+    line-height: 44.4px;
+    letter-spacing: 3px;
+}
+
+
+.forest2_two {
+    width: 50%;
+    margin-top: 120px;
+    font-size: 18px;
+    color: white;
+    margin-left: 40px;
+    line-height: 28px;
+}
+
+/* ...... */
+/* plan ko four box ko style  */
+/* ...... */
+.plan_box {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.golden_box {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+}
+
+.plan_box h4 {
+    color: #a3c962;
+}
+
+.premiun_box {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+
+}
+
+.platinium_box {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+
+}
+
+.silver_box {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+}
+
+/* end of our_plans_price */
+
+
+
+
+/* start of What Say peoples style  */
+
+.what_we_say {
+    margin-top: 80px;
+}
+
+.first_part_client {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1 {
+    width: 50%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.p2 {
+    width: 50%;
+}
+
+.p2 h2 {
+    font-size: 20px;
+    color: #a3c962;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.p2 h3 {
+    margin-left: 20px;
+    font-size: 45px;
+    line-height: 64px;
+}
+
+/* ...client phoyo part .... */
+.client_photo {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-left: 90px;
+
+}
+
+.Ted_Willson {
+    width: 25%;
+}
+
+.Orcand_Keen {
+    width: 25%;
+
+}
+
+.Jack_Killy {
+    width: 25%;
+}
+
+.Ted_Willson h2 {
+    margin-top: 30px;
+    color: #a3c962;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.Orcand_Keen h2 {
+    margin-top: 30px;
+    color: #a3c962;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.Jack_Killy h2 {
+    margin-top: 30px;
+    color: #a3c962;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.Ted_Willson h3 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.Orcand_Keen h3 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.Jack_Killy h3 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+/* end of What Say peoples style  */
+
+
+/* start of Save Forest And Nature style  */
+.save_forest_green_banner {
+    margin-top: 100px;
+    background-color: #a3c962;
+    height: 300px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.video_button {
+    text-align: center;
+    font-size: 80px;
+}
+
+.after_video_icon {
+    text-align: center;
+}
+
+.after_video_icon p {
+    color: black;
+    line-height: 40px;
+}
+
+.after_video_icon h1 {
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+
+/* end of Save Forest And Nature style  */
+
+
+/* start of Volunteer style  */
+.Volunteer_info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/* end of Volunteer style  */
+
+
+
+/* start of events style  */
+.events_background {
+    background-image: url(event_background.jpg);
+    height: 750px;
+    width: 100%;
+}
+
+.event_part_one {
+    display: flex;
+    margin-top: 60px;
+}
+
+.see_our_event {
+    width: 55%;
+    color: white;
+    text-align: right;
+    margin-top: 70px;
+}
+
+.see_our_event h2 {
+    color: #a3c962;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.see_our_event h3 {
+    font-size: 37px;
+    line-height: 47px;
+    letter-spacing: 2px;
+}
+
+.lorems {
+    width: 50%;
+    color: white;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.lorems h2 {
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+}
+
+/* ......box_part.....  */
+.event_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.blog1 {
+    background-color: white;
+    height: 450px;
+    width: 350px;
+}
+
+.event_container p {
+    color: black;
+}
+
+.event_container img {
+    height: 220px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+
+.blog2 {
+    background-color: white;
+    height: 450px;
+    width: 350px;
+}
+
+.blog2,
+h2 {
+    color: #a3c962;
+
+}
+
+.blog3 {
+    background-color: white;
+    height: 450px;
+    width: 350px;
+}
+
+.blog2,
+.p22,
+.date,
+p,
+h2 {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* end of events style  */
+
+
+
+
+
+/* start of contact style  */
+.first {
+    width: 50%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.first h2 {
+    font-size: 15px;
+    color: gray;
+    letter-spacing: 1px;
+
+}
+
+.second {
+    width: 50%;
+    margin-left: 30px;
+
+}
+
+.second h2 {
+    color: #a3c962;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.second h3 {
+    font-size: 37px;
+    line-height: 45px;
+    letter-spacing: 2px;
+
+}
+
+.contact_first_part {
+    display: flex;
+    margin-top: 80px;
+}
+
+/* .......form part......  */
+
+.contact_form {
+    display: flex;
+}
+
+.form {
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.form_box {
+    /* background-color: #009688; */
+    height: 440px;
+    width: 700px;
+    margin-left: 80px;
+}
+
+.container12 .content .form {
+    width: 600px;
+    height: 400px;
+}
+
+.container12 .content .form input,
+textarea {
+    width: 90%;
+    margin: 7px 8px;
+    background: rgb(236, 235, 235);
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid rgb(90, 89, 89);
+
+}
+
+.container12 .content .form input:focus,
+textarea:focus {
+    border: none;
+    outline: 3px solid rgb(64, 176, 228);
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(20, 47, 49, 0.5);
+}
+
+.container12 .content .form button {
+    width: 90%;
+    font-size: 16px;
+    padding: 9px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(162, 221, 74);
+}
+
+.container12 .content .form button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.address_phone {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.address_phone .address h2 {
+    color: #a3c962;
+    font-size: 32px;
+    line-height: 27px;
+}
+
+.address_phone .address h3 {
+    color: black;
+}
+
+.address_phone .phone h2 {
+    color: #a3c962;
+    font-size: 32px;
+    line-height: 27px;
+}
+
+.address_phone .email h2 {
+    color: #a3c962;
+    font-size: 32px;
+    line-height: 27px;
+}
+
+.address p {
+    margin-top: 10px;
+    color: black;
+
+
+}
+
+.phone {
+    margin-top: 100px;
+}
+
+.phone p {
+    margin-top: 10px;
+    color: black;
+
+
+}
+
+.email {
+    margin-top: 100px;
+}
+
+.email p {
+    margin-top: 10px;
+    color: black;
+
+}
+
+.contact_icons {
+    width: 10%;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.phone_icon {
+    margin-top: 100px;
+}
+
+.email_icon {
+    margin-top: 120px;
+}
+
+/* end of contact style  */
+
+
+
+
+/* start of map style */
+.map {
+    margin-top: 80px;
+    border: 5px solid white;
+}
+
+/* end of map style */
+
+/* start of green banner last copyright part  */
+.last_green_banner {
+    background-color: #a3c962;
+    width: 100%;
+    height: 250px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.copyright span {
+    color: black;
+}
+
+.copyright span:hover {
+    color: gray;
+}
+
+
+.icons {
+    text-align: center;
+    color: rgb(18, 16, 16);
+    font-size: 50px;
+    line-height: 100px;
+
+}
+
+/* end of green banner last copyright part  */
